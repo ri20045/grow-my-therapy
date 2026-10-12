@@ -1,6 +1,7 @@
 import Header from "@/components/layout/Header";
 import AudienceGrid from "@/components/sections/AudienceGrid";
 import ExpertiseTags from "@/components/sections/ExpertiseTags";
+import FaqSection from "@/components/sections/FaqSection";
 import Hero from "@/components/sections/Hero";
 import IntroValidation from "@/components/sections/IntroValidation";
 import OurOffice from "@/components/sections/OurOffice";
@@ -17,6 +18,7 @@ export default function Home() {
         <ExpertiseTags />
         <Philosophy />
         <OurOffice />
+        <FaqSection />
 
       {/* Appointment CTA */}
       <section className="px-6 py-20 text-center">
