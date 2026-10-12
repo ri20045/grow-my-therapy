@@ -6,6 +6,7 @@ const navigation = [
   { href: "#about", label: "About" },
   { href: "#services", label: "Areas of focus" },
   { href: "#approach", label: "How I work" },
+  { href: "#office", label: "Office" },
 ];
 
 export default function Header() {

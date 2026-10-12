@@ -3,6 +3,7 @@ import AudienceGrid from "@/components/sections/AudienceGrid";
 import ExpertiseTags from "@/components/sections/ExpertiseTags";
 import Hero from "@/components/sections/Hero";
 import IntroValidation from "@/components/sections/IntroValidation";
+import OurOffice from "@/components/sections/OurOffice";
 import Philosophy from "@/components/sections/Philosophy";
 
 export default function Home() {
@@ -15,6 +16,7 @@ export default function Home() {
         <AudienceGrid />
         <ExpertiseTags />
         <Philosophy />
+        <OurOffice />
 
       {/* Appointment CTA */}
       <section className="px-6 py-20 text-center">
