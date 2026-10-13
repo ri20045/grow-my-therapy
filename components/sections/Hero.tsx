@@ -29,7 +29,7 @@ export default function Hero() {
             className="mt-6 font-serif text-5xl font-normal leading-[1.06] tracking-[-0.04em] text-[#343735] sm:text-6xl lg:text-[4.5rem]"
             id="hero-heading"
           >
-            A calmer, more sustainable way <em className="font-normal">forward.</em>
+            Santa Monica therapy for anxiety, trauma <em className="font-normal">&amp; burnout.</em>
           </h1>
           <p className="mt-9 max-w-2xl text-lg font-normal leading-8 tracking-[-0.01em] text-[#555954] sm:text-xl sm:leading-9">
             Therapy for adults feeling overwhelmed by anxiety, stress, burnout, or the lingering impact of past experiences.
