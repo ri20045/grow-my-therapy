@@ -1,12 +1,15 @@
 import Header from "@/components/layout/Header";
 import Footer from "@/components/layout/Footer";
+import AffirmationBanner from "@/components/sections/AffirmationBanner";
 import AudienceGrid from "@/components/sections/AudienceGrid";
 import ExpertiseTags from "@/components/sections/ExpertiseTags";
 import FaqSection from "@/components/sections/FaqSection";
+import FeaturedServices from "@/components/sections/FeaturedServices";
 import Hero from "@/components/sections/Hero";
 import IntroValidation from "@/components/sections/IntroValidation";
 import OurOffice from "@/components/sections/OurOffice";
 import Philosophy from "@/components/sections/Philosophy";
+import TransitionalBanner from "@/components/sections/TransitionalBanner";
 
 export default function Home() {
   return (
@@ -16,8 +19,11 @@ export default function Home() {
         <Hero />
         <IntroValidation />
         <AudienceGrid />
+        <AffirmationBanner />
         <ExpertiseTags />
         <Philosophy />
+        <TransitionalBanner />
+        <FeaturedServices />
         <OurOffice />
         <FaqSection />
 
