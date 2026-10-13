@@ -44,13 +44,6 @@ export default function Header() {
           ))}
         </div>
 
-        <a
-          className="hidden min-h-11 items-center rounded-full bg-[#243e33] px-5 text-sm font-semibold text-white transition-colors hover:bg-[#1b2f27] focus-visible:outline-offset-4 sm:inline-flex"
-          href="#about"
-        >
-          Explore therapy
-        </a>
-
         <button
           aria-controls="mobile-navigation"
           aria-expanded={isMenuOpen}
